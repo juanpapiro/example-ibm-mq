@@ -1,0 +1,23 @@
+server:
+  port: 8036
+
+# MQ Communication properties
+##ibm.mq.queueManager: MQSD
+#ibm.mq.queueManager: QM1
+##ibm.mq.channel: CAN.JMS.CAPT
+#ibm.mq.channel: DEV.ADMIN.SVRCONN
+#ibm.mq.connName: 127.0.0.1(1414)
+#ibm.mq.host: 127.0.0.1
+#ibm.mq.port: 1414
+#ibm.mq.user: admin
+#ibm.mq.password: admin
+#ibm.mq.orderQueue: QUEUE.ORDER
+
+ibmmq.queueManager: QM1
+ibmmq.channel: DEV.ADMIN.SVRCONN
+ibmmq.connName: 127.0.0.1(1414)
+ibmmq.host: 127.0.0.1
+ibmmq.port: 1414
+ibmmq.user: admin
+ibmmq.password: admin
+ibmmq.orderQueue: QUEUE.ORDER

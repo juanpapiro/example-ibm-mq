@@ -1,0 +1,2 @@
+DEFINE QLOCAL(queue.order) REPLACE
+DEFINE QLOCAL(queue.order.errors) REPLACE
